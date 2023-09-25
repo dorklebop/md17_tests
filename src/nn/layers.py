@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+import torch_geometric.nn as tg_nn
 from ml_collections import config_dict
 
 from src import implicit_neural_reps as inr
